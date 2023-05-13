@@ -39,5 +39,18 @@ public class Coordenadas {
     {
         this.y = y;
     }
+
+    // toString (x,y)
+    public String toString() 
+    {
+        return "(" + this.x + "," + this.y + ")";
+        
+    }
+
+    // equals
+    public boolean equals(Coordenadas c) 
+    {
+        return this.x == c.x && this.y == c.y;
+    }
     
 }
