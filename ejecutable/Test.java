@@ -22,6 +22,12 @@ public class Test {
 
         System.out.println("---------------------");
 
+        // Se imprime el toString de c1 y c2
+        System.out.println("Coordenada c1: " + c1.toString());
+        System.out.println("Coordenada c2: " + c2.toString());
+
+        System.out.println("---------------------");
+
         if(c1.equals(c2))
         {
             System.out.println("Son iguales c1 y c2");
