@@ -52,6 +52,12 @@ public class Coordenadas {
     {
         return this.x == c.x && this.y == c.y;
     }
+
+    // Calcular la distancia entre dos puntos del plano
+    public double distancia(Coordenadas c) 
+    {
+        return Math.sqrt(Math.pow(this.x - c.x, 2) + Math.pow(this.y - c.y, 2));
+    }
     
     
     

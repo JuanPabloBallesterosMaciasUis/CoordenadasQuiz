@@ -13,11 +13,11 @@ public class Test {
 
         // Se imprime las cordenadas de c1 y c2
         System.out.println("Coordenada c1 X: " + c1.getX());
-        System.out.println("Coordenada c2 Y: " + c1.getY());
+        System.out.println("Coordenada c1 Y: " + c1.getY());
 
         System.out.println("---------------------");
 
-        System.out.println("Coordenada c1 X: " + c2.getX());
+        System.out.println("Coordenada c2 X: " + c2.getX());
         System.out.println("Coordenada c2 Y: " + c2.getY());
 
         System.out.println("---------------------");
@@ -32,7 +32,8 @@ public class Test {
             System.out.println("Son diferentes c1 y c2");
         }
 
-        
+        // Distancia entre c1 y c2
+        System.out.println("La distancia entre c1 y c2 es: " + c1.distancia(c2));        
 
     }
     
