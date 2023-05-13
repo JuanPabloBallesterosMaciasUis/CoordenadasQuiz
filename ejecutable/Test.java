@@ -12,23 +12,26 @@ public class Test {
         Coordenadas c4 = c2;
 
         // Se imprime las cordenadas de c1 y c2
-        System.out.println("X: " + c1.getX());
-        System.out.println("Y: " + c1.getY());
+        System.out.println("Coordenada c1 X: " + c1.getX());
+        System.out.println("Coordenada c2 Y: " + c1.getY());
 
-        System.out.println("X: " + c2.getX());
-        System.out.println("Y: " + c2.getY());
+        System.out.println("---------------------");
+
+        System.out.println("Coordenada c1 X: " + c2.getX());
+        System.out.println("Coordenada c2 Y: " + c2.getY());
+
+        System.out.println("---------------------");
 
         if(c1.equals(c2))
         {
-            System.out.println("Son iguales");
+            System.out.println("Son iguales c1 y c2");
         }
 
         else
         {
-            System.out.println("Son diferentes");
+            System.out.println("Son diferentes c1 y c2");
         }
 
-        System.out.println("El días es "+ c1.getX());
         
 
     }
